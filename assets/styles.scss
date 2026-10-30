@@ -1,7 +1,37 @@
 ---
 ---
 @use "sites-classic" with (
-  $primary-color: #1e6373
+  $primary-color: #1e6373,
+  $text-color: #1c1c1c,
+  $muted-background: #f0fcff,
+  $navigation-color: #1c1c1c,
+  $navigation-active-color: rgba(#1c1c1c, .82),
+  $control-color: rgba(#000, .54),
+  $header-background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 80"><path fill="%2309343e40" d="m22.5 6.25-10 10v17.5h10zm25 4v27.5h10v-17.5zm-35 36v27.5h10v-17.5zm45 4-10 10v17.5h10z"/></svg>') center / 35px 40px #1e6373,
+  $header-text-color: #f9f9f9,
+  $footer-text-color: #f9f9f9,
+  $body-font: (Roboto, sans-serif),
+  $heading-font: ("Playfair Display", serif),
+  $light-weight: 400,
+  $heading-weight: 700,
+  $heading-one-weight: 700,
+  $body-font-size: 13pt,
+  $home-introduction-font-size: 13pt,
+  $navigation-font-size: 13pt,
+  $brand-font-size: 20pt,
+  $footer-font-size: 10pt,
+  $heading-one-size: 40pt,
+  $heading-two-size: 20pt,
+  $heading-three-size: 16pt,
+  $heading-one-tablet-size: 35pt,
+  $heading-two-tablet-size: 19pt,
+  $heading-three-tablet-size: 16pt,
+  $heading-one-mobile-size: 29pt,
+  $heading-two-mobile-size: 18pt,
+  $heading-three-mobile-size: 16pt,
+  $page-title-size: 40pt,
+  $page-title-tablet-size: 35pt,
+  $page-title-mobile-size: 29pt
 );
 
 @use "social-icons" with (

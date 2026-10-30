@@ -33,6 +33,9 @@ $footer-font: $body-font !default;
 $light-weight: 300 !default;
 $normal-weight: 400 !default;
 $bold-weight: 700 !default;
+$heading-weight: $normal-weight !default;
+$heading-one-weight: $light-weight !default;
+$page-title-weight: $heading-one-weight !default;
 $body-font-size: 11pt !default;
 $home-introduction-font-size: 14pt !default;
 $navigation-font-size: 12pt !default;
@@ -221,7 +224,7 @@ a {
     width: 100%;
     font-family: $heading-font;
     font-size: $page-title-size;
-    font-weight: $light-weight;
+    font-weight: $page-title-weight;
     line-height: 1;
     letter-spacing: 2px;
     overflow-wrap: anywhere;
@@ -265,7 +268,7 @@ a {
   h5,
   h6 {
     font-family: $heading-font;
-    font-weight: $normal-weight;
+    font-weight: $heading-weight;
     scroll-margin-top: 1rem;
 
     &:first-child {
@@ -277,7 +280,7 @@ a {
   h1 {
     color: $primary-color;
     font-size: $heading-one-size;
-    font-weight: $light-weight;
+    font-weight: $heading-one-weight;
     line-height: 1.2;
     letter-spacing: .5px;
   }
