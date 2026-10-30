@@ -12,6 +12,7 @@ $black: #000 !default;
 $transparent-color: transparent !default;
 
 // Role colors inherit palette defaults so changing the theme stays consistent.
+$heading-color: $primary-color !default;
 $navigation-color: rgba($black, .64) !default;
 $navigation-active-color: rgba($black, .8) !default;
 $control-color: $navigation-color !default;
@@ -278,7 +279,7 @@ a {
   }
 
   h1 {
-    color: $primary-color;
+    color: $heading-color;
     font-size: $heading-one-size;
     font-weight: $heading-one-weight;
     line-height: 1.2;
@@ -286,7 +287,7 @@ a {
   }
 
   h2 {
-    color: $primary-color;
+    color: $heading-color;
     font-size: $heading-two-size;
     line-height: 1.4;
     margin-top: 1.5rem;
